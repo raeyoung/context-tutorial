@@ -1,14 +1,14 @@
 import React from 'react';
 import ColorBox from './components/ColorBox';
-import ColorContext from './contexts/color';
+import { ColorProvider } from './contexts/color';
 
 function App() {
   return (
-    <ColorContext.Provider value={{ color: 'pink' }} >
+    <ColorProvider>
       <div>
         <ColorBox />
       </div>
-    </ColorContext.Provider>
+    </ColorProvider>
   );
 }
 
