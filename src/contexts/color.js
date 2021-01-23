@@ -25,6 +25,6 @@ const ColorContext = createContext({
  const { Consumer: ColorConsumer } = ColorContext;
 
  // ColorProvider 와 ColorConsumer 내보내기
- export { ColorProvider, ColorConsumer };
+ export { ColorProvider, ColorConsumer, ColorContext };
 
 export default ColorContext;
